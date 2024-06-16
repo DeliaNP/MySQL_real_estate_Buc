@@ -30,7 +30,7 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  ** **
+  ** ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fc33a8e8-b5d3-4720-be69-2e0d7e1ae82a) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/859d6940-8800-434f-b311-4af62f7bcc61) **
   
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 

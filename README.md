@@ -16,7 +16,7 @@ You can find below the database schema that was generated through Reverse Engine
 The tables are connected in the following way:
 
 <ul>
-  <li> **nume tabela 1**  is connected with **nume tabela 2** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
+  <li> **employees**  is connected with **details_employees** through a **self referencing** relationship which was implemented through **employees.employee_id** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
   <li> **nume tabela 3**  is connected with **nume tabela 4** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
   <li> **nume tabela 5**  is connected with **nume tabela 6** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
   ...........
@@ -30,7 +30,7 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  **Inserati aici toate instructiunile de CREATE pe care le-ati scris, atat create database cat si create table**
+  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/f67da9d6-94d9-4abe-8839-5579bfb6d4a4) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/ae19c2ef-9268-4d1c-bb66-8753bf2715ba) **
 
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 

@@ -30,7 +30,7 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/f67da9d6-94d9-4abe-8839-5579bfb6d4a4)![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/ae19c2ef-9268-4d1c-bb66-8753bf2715ba)![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/8be84331-d7a6-4653-ae5e-6aedf4754321)![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/71fca3ef-c64c-4ade-9593-df261c102c48)![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/616e2c2e-998d-4c50-a38f-521ce0ff05c4)
+  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/f67da9d6-94d9-4abe-8839-5579bfb6d4a4)![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/ae19c2ef-9268-4d1c-bb66-8753bf2715ba)![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/8be84331-d7a6-4653-ae5e-6aedf4754321)![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/71fca3ef-c64c-4ade-9593-df261c102c48)![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/616e2c2e-998d-4c50-a38f-521ce0ff05c4) 
 **
 
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:

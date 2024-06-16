@@ -17,8 +17,8 @@ The tables are connected in the following way:
 
 <ul>
   <li> **employees**  is connected with **details_employees** through a **self referencing** relationship which was implemented through **employees.employee_id** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 3**  is connected with **nume tabela 4** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
-  <li> **nume tabela 5**  is connected with **nume tabela 6** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
+  <li> **employees**  is connected with **details_employees** through a ** one to one** relationship which was implemented through **employees.employee_id** as a primary key and **employee_id** as a foreign key</li>
+ 
   ...........
   <li> **nume tabela n**  is connected with **nume tabela n+1** through a **tip relatie** relationship which was implemented through **nume_tabela.nume_coloana_cheie_primara** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
 </ul><br>
@@ -64,21 +64,12 @@ In order to simulate various scenarios that might happen in real life I created 
 **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/865403bc-ebcf-4eb4-a39f-55e027632f12)**<br>
 **- ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/b656dd43-0e33-419f-a459-40217a9e6a5f)**<br>
 **- ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/548edd32-b379-49b7-b627-dd9db44e1f54)**<br>
-**- NOT**<br>
-**- like**<br>
-**- inner join**<br>
-**- left join**<br>
-**- OPTIONAL: right join**<br>
-**- OPTIONAL: cross join**<br>
-**- functii agregate**<br>
-**- group by**<br>
-**- having**<br>
-**- OPTIONAL DAR RECOMANDAT: Subqueries - nu au fost in scopul cursului. Puteti sa consultati tutorialul [asta](https://www.techonthenet.com/mysql/subqueries.php) si daca nu intelegeti ceva contactati fie trainerul, fie coordonatorul de grupa**<br>
+
 
 </ol>
 
 <li>Conclusions</li>
 
-**Inserati aici o concluzie cu privire la ceea ce ati lucrat, gen lucrurile pe care le-ati invatat, lessons learned, un rezumat asupra a ceea ce ati facut si orice alta informatie care vi se pare relevanta pentru o concluzie finala asupra a ceea ce ati lucrat**
+**The database development project for the real estate agency demonstrated an in-depth understanding of fundamental SQL concepts and highlighted the ability to implement and manage complex data structures. The combined use of DDL, DML, and DQL commands allowed for the creation of a robust, efficient, and user-friendly database that meets the operational needs of the real estate agency. This project represents a solid example of applying relational database principles and efficient data management in a real-world context.**
 
 </ol>

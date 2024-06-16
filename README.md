@@ -30,7 +30,7 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  ** ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/b3f25554-3fe1-486d-9974-3a027e49c166) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fc852d40-7ed4-4397-aeab-d8e075f53168) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/d8f96c16-f63b-4a5d-8173-6745b0323837) **
+  ** ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/b3f25554-3fe1-486d-9974-3a027e49c166) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fc852d40-7ed4-4397-aeab-d8e075f53168) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/d8f96c16-f63b-4a5d-8173-6745b0323837)  ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/c4172d63-af9c-4e6f-a174-7e56503ecc8e) **
   
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 
@@ -44,7 +44,7 @@ The tables are connected in the following way:
 
   Below you can find all the insert instructions that were created in the scope of this project:
 
-  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/7db0485e-0178-4734-9118-7ce19683d083) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/1731d4db-6c8a-4247-b1b2-2baf2d6cf906)  ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/4446f8b3-f031-486c-a81d-33d38a579ec5)  ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/c4172d63-af9c-4e6f-a174-7e56503ecc8e) **
+  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/7db0485e-0178-4734-9118-7ce19683d083) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/1731d4db-6c8a-4247-b1b2-2baf2d6cf906)  ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/4446f8b3-f031-486c-a81d-33d38a579ec5) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/7b88dbda-db92-4f5b-8ba9-e0cd49c125ae) **
 
   After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
 

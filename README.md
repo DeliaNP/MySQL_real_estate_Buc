@@ -16,7 +16,7 @@ You can find below the database schema that was generated through Reverse Engine
 The tables are connected in the following way:
 
 <ul>
-  <li> **employees**  is connected with **details_employees** through a **self referencing** relationship which was implemented through **employees.employee_id** as a primary key and **nume_tabela.nume_coloana_cheie_secundara** as a foreign key</li>
+  <li> **employees**  is connected with **details_employees** through a **self referencing** relationship which was implemented through **employees.employee_id** as a primary key and **employees.manager_id** as a foreign key</li>
   <li> **employees**  is connected with **details_employees** through a ** one to one** relationship which was implemented through **employees.employee_id** as a primary key and **employee_id** as a foreign key</li>
  
   ...........

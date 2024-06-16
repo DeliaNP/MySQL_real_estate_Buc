@@ -1,5 +1,7 @@
 <h1>Database Project for **Inserati aici numele aplicatiei pe care o testati**</h1>
+
 ![TimePhoto_20240326_132141_copy_1305x979](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/470b170a-994e-443e-a49e-850428ff151f)
+
 The scope of this project is to use all the SQL knowledge gained throught the Software Testing course and apply them in practice.
 
 Application under test: **Inserati aici numele aplicatiei pe care o testati**

@@ -30,17 +30,14 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  ** ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fc33a8e8-b5d3-4720-be69-2e0d7e1ae82a) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/859d6940-8800-434f-b311-4af62f7bcc61) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/3b2abc20-a1f7-419a-bdaa-27334d914e68) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/52bf83bf-237b-4d03-8821-e61c29966e79) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fddd97d4-3b85-496e-add0-807b5181c14d) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/f319b1da-ef73-4365-af8a-1a3ead166bc8) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/1504746e-8ba0-4322-958c-e02e9213dfdc) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/13019c7c-23d2-4759-b5fc-804e6415fade) **
+  ** ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fc33a8e8-b5d3-4720-be69-2e0d7e1ae82a) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/859d6940-8800-434f-b311-4af62f7bcc61) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/3b2abc20-a1f7-419a-bdaa-27334d914e68) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/52bf83bf-237b-4d03-8821-e61c29966e79) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fddd97d4-3b85-496e-add0-807b5181c14d) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/f319b1da-ef73-4365-af8a-1a3ead166bc8) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/1504746e-8ba0-4322-958c-e02e9213dfdc) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/13019c7c-23d2-4759-b5fc-804e6415fade) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/8944ec24-898f-4162-ab6b-18ffc8dfe418)**
   
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 
-  **Inserati aici toate instructiunile de ALTER pe care le-ati scris. Incercati sa includeti instructiuni cat mai variate cum ar fi:**
- **- schimbare nume tabela**
- **- adaugare sau stergere coloana**
- **- redenumire coloana**
- **- adaugare proprietati coloana (ex: adaugare auto-increment)**
- **- modificare proprietati coloana (ex: modificare tip de data, modificare pozitie coloana etc)**
- **- adaugare cheie primara sau secundara (daca nu a fost deja adaugata la crearea tabelei)**
+  **alter table employees add foreign key(manager_id) references employees(employee_id)**
+ **- alter table Georgescu_Valentin modify propertyType varchar (25) not null**
+ **- alter table Georgescu_Valentin modify spaceArea varchar (10) not null**
+ 
  
   
   <li>DML (Data Manipulation Language)</li>

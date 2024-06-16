@@ -48,14 +48,14 @@ The tables are connected in the following way:
 
   After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
 
-  **Inserati aici toate instructiunile de UPDATE pe care le-ati scris folosind filtrarile necesare astfel incat sa actualizati doar datele de care aveti nevoie**
+  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fd22dcec-d61d-4193-b080-337047a4fd99)**
 
 
-  <li>DQL (Data Query Language)</li>
+  <li>DQL (Data Query Language)</li> 
 
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
 
-**Inserati aici toate instructiunile de DELETE pe care le-ati scris folosind filtrarile necesare astfel incat sa stergeti doar datele de care aveti nevoie**
+**I![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/2a63c5b4-fa4a-4e6b-9bf0-38056f4c16d6)**
 
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
 

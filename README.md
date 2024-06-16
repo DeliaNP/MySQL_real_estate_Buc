@@ -30,16 +30,13 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  ** ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fc33a8e8-b5d3-4720-be69-2e0d7e1ae82a) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/859d6940-8800-434f-b311-4af62f7bcc61) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/3b2abc20-a1f7-419a-bdaa-27334d914e68) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/52bf83bf-237b-4d03-8821-e61c29966e79) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fddd97d4-3b85-496e-add0-807b5181c14d) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/f319b1da-ef73-4365-af8a-1a3ead166bc8) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/1504746e-8ba0-4322-958c-e02e9213dfdc) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/13019c7c-23d2-4759-b5fc-804e6415fade) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/8944ec24-898f-4162-ab6b-18ffc8dfe418)**
+  ** ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/b3f25554-3fe1-486d-9974-3a027e49c166) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fc852d40-7ed4-4397-aeab-d8e075f53168) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/d8f96c16-f63b-4a5d-8173-6745b0323837) **
   
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 
   **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/e5b940d6-55ad-4edb-9350-5d0587f42f93)**
  **- ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/42399fc2-c3ff-439c-815c-84a04f2c7bf6)**
-
  
- 
-  
   <li>DML (Data Manipulation Language)</li>
 
   In order to be able to use the database I populated the tables with various data necessary in order to perform queries and manipulate the data. 
@@ -47,7 +44,7 @@ The tables are connected in the following way:
 
   Below you can find all the insert instructions that were created in the scope of this project:
 
-  **Inserati aici toate instructiunile de INSERT pe care le-ati scris. Incercati sa folositi atat insert pe toate coloanele (fara sa precizati pe ce coloane se face insert) cat si insert pe cateva coloane (care necesita mentionarea explicita a coloanelor pe care se face insert). De asemenea, incercati sa acoperiti situatia in care inserati mai multe randuri in acelasi timp**
+  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/7db0485e-0178-4734-9118-7ce19683d083) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/1731d4db-6c8a-4247-b1b2-2baf2d6cf906) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/4446f8b3-f031-486c-a81d-33d38a579ec5) **
 
   After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
 

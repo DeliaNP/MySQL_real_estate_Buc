@@ -34,9 +34,9 @@ The tables are connected in the following way:
   
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 
-  **alter table employees add foreign key(manager_id) references employees(employee_id)**
- **- alter table Georgescu_Valentin modify propertyType varchar (25) not null**
- **- alter table Georgescu_Valentin modify spaceArea varchar (10) not null**
+  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/e5b940d6-55ad-4edb-9350-5d0587f42f93)**
+ **- ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/42399fc2-c3ff-439c-815c-84a04f2c7bf6)**
+
  
  
   

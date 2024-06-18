@@ -30,7 +30,34 @@ The tables are connected in the following way:
 
   The following instructions were written in the scope of CREATING the structure of the database (CREATE INSTRUCTIONS)
 
-  ** ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/b3f25554-3fe1-486d-9974-3a027e49c166) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fc852d40-7ed4-4397-aeab-d8e075f53168) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/d8f96c16-f63b-4a5d-8173-6745b0323837)  ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/c4172d63-af9c-4e6f-a174-7e56503ecc8e)  ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/f946f45f-435d-4af7-9f24-9677133540a2)  ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/1eeb698e-3829-4404-9fba-0639ac5bb848) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fbfa1c49-964e-442c-9243-417fbb044967) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/7bb5996e-71ca-4e52-a9b1-299987108b0b) ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/3d5910f3-1bf3-4112-a2f6-110c7628f9eb)**
+  ```
+create table employees(
+    employee_id int primary key auto_increment,
+    last_name varchar(25),
+    first_name varchar(20),
+    manager_id int
+    );
+
+create table details_employees(
+    employee_id int,
+    details_id int primary key auto_increment,
+    position varchar(15),
+    email varchar(50),
+    phone varchar(20),
+    foreign key (employee_id) references employees(employee_id)
+);
+
+create table Mihai_Maria(
+	propertyID int primary key auto_increment not null,
+	propertyStatus varchar (15) not null,
+	propertyType varchar (15) not null,
+	rooms int not null,
+	propertyAdress varchar (60) not null,
+	district varchar (10),
+	price varchar (15)
+);
+```
+  
   
   After the database and the tables have been created, a few ALTER instructions were written in order to update the structure of the database, as described below:
 

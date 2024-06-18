@@ -211,26 +211,100 @@ insert into Georgescu_Valentin (propertyStatus, propertyType, spaceArea, propert
 ('for rent', 'commercial space', '110 sqm', 'Bucharest, Baba Novac St., no. 7', '3', '2200 Euro'),
 ('rent', 'commercial space', '195 sqm', 'Bucharest, Mihai Bravu St., no. 71', '3', '3420 Euro');
 
+insert into transactions (employeeID, propertyID, transactionDate, transactionType) values
+('1', '2', '2024-01-25', 'rent'),
+('1', '6', '2024-01-25', 'rent'),
+('2', '3', '2024-02-17', 'sold'),
+('4', '4', '2024-03-02', 'sold');
+
 ```
  
   After the insert, in order to prepare the data to be better suited for the testing process, I updated some data in the following way:
 
-  **![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/fd22dcec-d61d-4193-b080-337047a4fd99)**
+```
+update Coman_Mihai set propertyStatus = 'rent' where propertyID = '5';
 
+update Coman_Mihai set price= '450 Euro' where propertyID = '5';
+
+```   
 
   <li>DQL (Data Query Language)</li> 
 
 After the testing process, I deleted the data that was no longer relevant in order to preserve the database clean: 
 
-**I![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/2a63c5b4-fa4a-4e6b-9bf0-38056f4c16d6)**
+```
+delete from transactions;
+
+drop table transactions;
+
+```
 
 In order to simulate various scenarios that might happen in real life I created the following queries that would cover multiple potential real-life situations:
 
-**![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/8d201d0d-09a9-4ad3-9f6e-32f4b0b8dc8a)**
-**Incercati sa acoperiti urmatoarele:**<br>
-**![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/865403bc-ebcf-4eb4-a39f-55e027632f12)**<br>
-**- ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/b656dd43-0e33-419f-a459-40217a9e6a5f)**<br>
-**- ![image](https://github.com/DeliaNP/MySQL_real_estate_Buc/assets/167696115/548edd32-b379-49b7-b627-dd9db44e1f54)**<br>
+```
+select * from Dumitrascu_Florin where price like '7%';
+
+select * from Petre_Silvia where rooms = '2' or price > '70000 Euro';
+
+select * from Marinescu_Elena order by price asc;
+
+select * from Marinescu_Elena where propertyStatus = 'sold' order by price desc;
+
+select * from Mihai_Maria where propertyStatus = 'rent';
+
+select * from Coman_Mihai where rooms = '2';
+
+select * from Mihai_Maria order by district;
+
+select * from Georgescu_Valentin where spaceArea between 75 and 120;
+
+select * from Petre_Silvia where propertyStatus = 'for sale' and price < '70000 Euro';
+
+select count(propertyStatus) from Mihai_Maria where propertyStatus = 'sold';
+
+select min(price) from Georgescu_Valentin where price <= '1500 Euro';
+
+select * from Georgescu_Valentin where propertyStatus like '%o%';
+
+select count(price) from Georgescu_Valentin where price < '1800 Euro';
+
+Select district, COUNT(*) as num_properties from Mihai_Maria group by district;
+
+SELECT district, COUNT(*) AS num_properties FROM Mihai_Maria WHERE district = 'Ilfov' GROUP BY district HAVING COUNT(*) > 1;
+
+select 'Mihai_Maria' as tableName, propertyID, propertyStatus, propertyType, propertyAdress, district, price
+from Mihai_Maria
+where propertyStatus = 'for sale'
+union all
+select 'Dumitrascu_Florin' as tableName, propertyID, propertyStatus, propertyType, propertyAdress, district, price
+from Dumitrascu_Florin
+where propertyStatus = 'for sale'
+union all
+select 'Petre_Silvia' as tableName, propertyID, propertyStatus, propertyType, propertyAdress, district, price
+from Petre_Silvia
+where propertyStatus = 'for sale'
+union all
+select 'Maroinescu_Elena' as tableName, propertyID, propertyStatus, propertyType, propertyAdress, district, price
+from Marinescu_Elena
+where propertyStatus = 'for sale'
+union all
+select 'Coman_Mihai' as tableName, propertyID, propertyStatus, propertyType, propertyAdress, district, price
+from Coman_Mihai
+where propertyStatus = 'for sale'
+union all
+select 'Georgescu_Valentin' as tableName, propertyID, propertyStatus, propertyType, propertyAdress, district, price
+from Georgescu_Valentin
+where propertyStatus = 'for sale';
+
+select * from employees cross join details_employees;
+
+select * from employees inner join details_employees on employees.employee_id = details_employees.employee_id;
+
+select * from employees left join details_employees on employees.employee_id=details_employees.employee_id;
+
+select * from employees right join details_employees on employees.employee_id=details_employees.employee_id;
+
+```
 
 
 </ol>
